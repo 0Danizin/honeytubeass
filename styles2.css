@@ -1,0 +1,74 @@
+body {
+    background: rgb(231, 125, 143);
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom, pink, red);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    header {
+        background: linear-gradient(to right, pink, red);
+        color: white;
+        text-align: center;
+        padding: 30px 0;
+        font-size: 32px;
+    }
+
+    .linha-videos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 40px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    iframe {
+        width: 100%;
+        max-width: 570px;
+        height: 315px;
+    }
+
+    .video-container {
+        padding: 10px;
+    }
+</style>
+
+}
+
+head {
+    inframe {
+
+        width: 570px;
+        heigth: 315px;
+        
+
+    }
+
+
+}
+
+.video-container p {
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    /* ou outra fonte que você escolher */
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    /* opcional: cor branca */
+}
+.linha-videos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    justify-items: center;
+}
